@@ -15,7 +15,7 @@ public class jParser extends jsonHandler {
 	 * 例如:json解析.get(data,"translateResult","0","0")
 	 */
 	public static Object get (String json,String... index) {
-		return multiPartHandler(json, index, 0);
+		return multiPartHandler(json, index, 0); 
 	}
 	/**
 	 * <p>获取json的集合元素</p>
